@@ -55,7 +55,7 @@ function updateTimerDisplay() {
     i++;
   }
   // Change 136.1 to the length of your own video in seconds
-  if (t < 260) {
+  if (t < 600) {
     setTimeout(() => {
       updateTimerDisplay();
     }, 100);

@@ -8,6 +8,10 @@ Feel free to adjust the defaults to your needs.
 #closed-captions p {
 	opacity: 0;
 	transition: .05s;
+	color: white;
+	position: absolute;
+	justify-items: center;
+	align-items: center;
 }
 
 #closed-captions .on {
@@ -64,22 +68,22 @@ body {
 	height: 100vh;
 	margin: 0;
 	justify-content: center;
+	background-color: black;
 }
 
 #video-container {
 	display: grid;
 	margin: 1em;
-	justify-content: center;
 	align-items: center;
-	height: 100vh;
+	height: auto;
+	overflow: hidden;
 }
 
 #video-mask {
-	grid-area: 1 / 1;
+	display: grid;
 	overflow: hidden;
 	align-content: center;
 	transition: 1s;
-	border: solid red 10px;
 	height: 53.33333333vw;
 }
 
@@ -90,8 +94,16 @@ iframe {
 }
 
 #closed-captions {
-	grid-area: 1 / 1;
-	height: 10%;
+	grid-area: 2 / 1;
+	display: flex;
+	justify-content: end;
+	height: 100px;
 	z-index: 1000;
-	overflow: hidden;
+	align-items: center;
+	justify-content: center;
+}
+
+#video-placeholder {
+	grid-area: 1 / 1;
+	align-self: center;
 }
