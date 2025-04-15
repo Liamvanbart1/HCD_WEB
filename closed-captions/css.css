@@ -50,13 +50,16 @@ Sounds.
 
 /* The moment the class .sound1 is added to the body, the background is yellow */
 body.sound0 #video-placeholder {
-	transform: translateY(16em);
 	background-color: red;
 	padding: 1em;
 	transition: all 1s ease-in-out;
 }
 
-
+.soundeffects {
+	display: flex;
+	justify-content: center;
+	color: white;
+}
 
 /* **********************************************
 Basic layout.
@@ -84,7 +87,7 @@ body {
 	overflow: hidden;
 	align-content: center;
 	transition: 1s;
-	height: 80%;
+	/* height: 80%; */
 	align-items: end;
 }
 
