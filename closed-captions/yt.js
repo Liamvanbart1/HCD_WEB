@@ -51,7 +51,7 @@ function updateTimerDisplay() {
   }
   var i = 0;
   while (i < sounds.length) {
-    sTimes(i, sounds[i], t);
+    sTimes(i, sounds[i][0], sounds[i][1], t);
     i++;
   }
   // Change 136.1 to the length of your own video in seconds
@@ -77,13 +77,15 @@ function pTimes(num, startT, endT, curT) {
   }
 }
 
-function sTimes(num, soundStarts, curT) {
+function sTimes(num, startT, endT, curT) {
   var soundClass = "sound" + num;
   var b = document.querySelector("body");
-  if (curT > soundStarts && !b.classList.contains(soundClass)) {
+
+  if (curT >= startT && curT <= endT && !b.classList.contains(soundClass)) {
     b.classList.add(soundClass);
   }
-  if (curT < soundStarts && b.classList.contains(soundClass)) {
+
+  if ((curT < startT || curT > endT) && b.classList.contains(soundClass)) {
     b.classList.remove(soundClass);
   }
 }
