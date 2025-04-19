@@ -6,7 +6,7 @@ sounds = [
   [115, 118], // computer geluiden
   [137, 139], //auto door hek
   [151, 153], //piano muziek stopt
-  [30, 32],
+  [7, 10], //geluid van versnelling
   [32, 33],
   [34, 36],
   [86, 90],

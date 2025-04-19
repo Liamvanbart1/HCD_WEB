@@ -1,0 +1,18 @@
+@property --blur {
+    syntax: '<length>';
+    inherits: false;
+    initial-value: 0em;
+}
+
+@property --spread {
+    syntax: '<length>';
+    inherits: false;
+    initial-value: 0em;
+}
+
+
+@keyframes muziek {
+    10% {
+        box-shadow: 0em 0em var(--blur) var(--spread) deeppink;
+    }
+}
