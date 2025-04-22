@@ -5,7 +5,9 @@ Show them when they receive the class 'on'
 Hide them when they receive the class 'off'
 Feel free to adjust the defaults to your needs.
 ********************************************** */
-
+body {
+	font-family: sans-serif;
+}
 
 #closed-captions p {
 	opacity: 0;
@@ -14,7 +16,7 @@ Feel free to adjust the defaults to your needs.
 	position: absolute;
 	justify-items: center;
 	align-items: center;
-	font-size: 2em;
+	font-size: 1.7em;
 	font-family: sans-serif;
 }
 
@@ -53,7 +55,7 @@ Sounds.
 
 /* The moment the class .sound1 is added to the body, the background is yellow */
 .piano {
-	bottom: .5em;
+	bottom: 3.5em;
 	opacity: 0;
 	position: absolute;
 }
@@ -61,9 +63,11 @@ Sounds.
 .band {
 	opacity: 0;
 	position: absolute;
+	bottom: 2.5em;
 }
 
 .mais {
+	bottom: 2.5em;
 	opacity: 0;
 	position: absolute;
 }
@@ -71,9 +75,11 @@ Sounds.
 .vliegtuig {
 	opacity: 0;
 	position: absolute;
+	bottom: 2.5em;
 }
 
 .computer {
+	bottom: 2.5em;
 	opacity: 0;
 	position: absolute;
 }
@@ -81,17 +87,154 @@ Sounds.
 .auto {
 	opacity: 0;
 	position: absolute;
+	bottom: 2.5em;
 }
 
 .stop {
-	bottom: .5em;
+	bottom: 2.5em;
 	opacity: 0;
 	position: absolute;
 }
 
 .gears {
+	bottom: 2.5em;
 	opacity: 0;
 	position: absolute;
+}
+
+
+.combine {
+	color: #d80000;
+	background: #fff300;
+	position: absolute;
+	display: block;
+	top: 36%;
+	left: 32%;
+	font-size: 2em;
+	font-family: 'Impact', 'Comic Sans MS', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	padding: 0.5em 1em;
+	border: 4px solid #000;
+	box-shadow: 4px 4px 0 #000;
+	transform: rotate(-3deg);
+	opacity: 0;
+	clip-path: polygon(50% 0%, 60% 30%, 100% 20%, 70% 50%,
+			100% 80%, 60% 70%, 50% 100%, 40% 70%,
+			0% 80%, 30% 50%, 0% 20%, 40% 30%);
+}
+
+.drone {
+	color: white;
+	position: absolute;
+	display: block;
+	font-size: 1em;
+	top: 38%;
+	left: 38%;
+	opacity: 0;
+	font-size: 1.5em;
+}
+
+.mais1 {
+	color: white;
+	position: absolute;
+	display: block;
+	font-size: 1em;
+	top: 33%;
+	left: 52%;
+	opacity: 0;
+}
+
+.mais2 {
+	color: white;
+	position: absolute;
+	display: block;
+	font-size: 1.2em;
+	top: 34%;
+	left: 56%;
+	opacity: 0;
+}
+
+.mais3 {
+	color: white;
+	position: absolute;
+	display: block;
+	font-size: 1em;
+	top: 36%;
+	left: 50%;
+	opacity: 0;
+}
+
+.mais4 {
+	color: white;
+	position: absolute;
+	display: block;
+	font-size: 1.5em;
+	top: 27%;
+	left: 60%;
+}
+
+.mais5 {
+	color: white;
+	position: absolute;
+	display: block;
+	font-size: 1.5em;
+	top: 27%;
+	left: 60%;
+}
+
+.mais6 {
+	color: white;
+	position: absolute;
+	display: block;
+	font-size: 1.5em;
+	/* top: 40em;
+	left: 210em; */
+}
+
+.mais7 {
+	color: white;
+	position: absolute;
+	display: block;
+	font-size: 1.5em;
+	/* top: 40em;
+	left: 210em; */
+}
+
+.mais8 {
+	color: white;
+	position: absolute;
+	display: block;
+	font-size: 1.5em;
+	/* top: 40em;
+	left: 210em; */
+}
+
+.mais9 {
+	color: white;
+	position: absolute;
+	display: block;
+	font-size: 1.5em;
+	/* top: 40em;
+	left: 210em; */
+}
+
+.mais10 {
+	color: white;
+	position: absolute;
+	display: block;
+	font-size: 1.5em;
+	/* top: 40em;
+	left: 210em; */
+}
+
+.mais11 {
+	color: white;
+	position: absolute;
+	display: block;
+	font-size: 1.5em;
+	/* top: 40em;
+	left: 210em; */
 }
 
 /* animaties trigerren */
@@ -100,6 +243,14 @@ Sounds.
 
 body.sound0 .piano {
 	opacity: 1;
+	font-style: italic;
+}
+
+body.sound0 #video-container {
+	--blur: 2em;
+	--spread: 0em;
+	animation: muziek1 120s infinite ease-in-out;
+	transition: all 1s ease;
 }
 
 body.sound1 {
@@ -137,6 +288,30 @@ body.sound7 .gears {
 	opacity: 1;
 }
 
+body.sound8 .combine {
+	animation: pop-in 1.4s ease-out forwards;
+}
+
+body.sound9 .mais1 {
+	animation: opacity 1s forwards;
+}
+
+body.sound9 .mais2 {
+	animation: opacity 1s forwards;
+	animation-delay: 150ms;
+}
+
+body.sound9 .mais3 {
+	animation: opacity 1s forwards;
+	animation-delay: 180ms;
+}
+
+body.sound10 .drone {
+	animation: drone 3s forwards;
+}
+
+
+
 .soundeffects {
 	display: flex;
 	justify-content: center;
@@ -170,6 +345,7 @@ body {
 	transition: 1s;
 	/* height: 80%; */
 	align-items: end;
+	justify-self: center;
 }
 
 iframe {

@@ -7,7 +7,7 @@ sounds = [
   [137, 139], //auto door hek
   [151, 153], //piano muziek stopt
   [7, 10], //geluid van versnelling
-  [32, 33],
-  [34, 36],
-  [86, 90],
+  [129, 132], // auto tegen combine
+  [88, 95], // mais op de auto
+  [79, 83], // drone vliegen
 ];
