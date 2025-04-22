@@ -10,4 +10,7 @@ sounds = [
   [129, 132], // auto tegen combine
   [88, 95], // mais op de auto
   [79, 83], // drone vliegen
+  [171, 260], //2e keer muziek
+  [11, 13], // pst bij band
+  [91, 94], //geluid van mais tegen raam
 ];

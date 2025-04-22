@@ -19,39 +19,28 @@
 
 @keyframes spacePulse {
     0% {
-        box-shadow: 0 0 2em 0em #1e2a78;
+        box-shadow: 0 0 0 0 #1e2a78;
+        /* Start with no border */
     }
 
-    10% {
-        box-shadow: 0 0 2em 3em #3f5db3;
+    25% {
+        box-shadow: 0 0 0 4px #3f5db3;
+        /* First beat pulse */
     }
 
-    20% {
-        box-shadow: 0 0 2em 0em #1e2a78;
+    50% {
+        box-shadow: 0 0 0 0 #1e2a78;
+        /* Return for second beat */
     }
 
-    35% {
-        box-shadow: 0 0 2em 3em #3f5db3;
-    }
-
-    45% {
-        box-shadow: 0 0 2em 0em #1e2a78;
-    }
-
-    60% {
-        box-shadow: 0 0 2em 3em #3f5db3;
-    }
-
-    70% {
-        box-shadow: 0 0 2em 0em #1e2a78;
-    }
-
-    85% {
-        box-shadow: 0 0 2em 4em #3f5db3;
+    75% {
+        box-shadow: 0 0 0 4px #3f5db3;
+        /* Third beat pulse */
     }
 
     100% {
-        box-shadow: 0 0 2em 0em #1e2a78;
+        box-shadow: 0 0 0 0 #1e2a78;
+        /* Reset for loop */
     }
 }
 
@@ -62,6 +51,16 @@
 
     100% {
         box-shadow: inset 0em 0em 2em 10em #fdf3cc;
+    }
+}
+
+@keyframes inwardGlow1 {
+    0% {
+        box-shadow: inset 0em 0em 2em 0em #fdf3cc;
+    }
+
+    100% {
+        box-shadow: inset 0em 0em 2em 5em #fdf3cc;
     }
 }
 
@@ -92,7 +91,7 @@
     }
 
     100% {
-        transform: translateY(-40px);
+        transform: translateY(40px);
         opacity: 0;
     }
 }
@@ -110,5 +109,31 @@
     100% {
         opacity: 0;
         transform: translate(-160px, 50px);
+    }
+}
+
+@keyframes shake {
+    0% {
+        transform: translateX(0);
+    }
+
+    20% {
+        transform: translateX(-5px);
+    }
+
+    40% {
+        transform: translateX(5px);
+    }
+
+    60% {
+        transform: translateX(-5px);
+    }
+
+    80% {
+        transform: translateX(5px);
+    }
+
+    100% {
+        transform: translateX(0);
     }
 }
