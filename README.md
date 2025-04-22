@@ -36,11 +36,15 @@ Kortom: we hoeven het niet voor iedereen werkend te maken. Het mag afleidend zij
 
 ### Week 2
 
-In week 1 heb ik veel vragen gesteld aan Darice om zo duidelijk mogelijk te hebben wat ik wilde gaan maken. Dus ik had een aantal ideën, in eerste instantie koos ik ervoor om de film die Darice had genoemd uit te werken: Odd Thomas. In eerste instantie moest ik alle technische dingen regelen zoals de ondertiteling en de timing hiervan. Dit kostte me meer tijd dan ik dacht maar uiteindelijk is het gelukt. Alleen toen ik dit had gedaan ging ik aan de slag met de effecten en kwam ik erachter dat de film niet echt de goede keuze was voor deze opdracht en daarom ben ik geswitcht naar mijn eigen favoriete film Interstellar. -
+In week 1 heb ik veel vragen gesteld aan Darice om zo duidelijk mogelijk te krijgen wat ik wilde gaan maken. Ik had een aantal ideeën en koos er in eerste instantie voor om de film die Darice had genoemd uit te werken: _Odd Thomas_. Eerst moest ik alle technische zaken regelen, zoals de ondertiteling en de timing hiervan. Dit kostte me meer tijd dan verwacht, maar uiteindelijk is het gelukt. Toen ik daarna aan de slag ging met de effecten, kwam ik erachter dat de film toch niet de juiste keuze was voor deze opdracht. Daarom ben ik geswitcht naar mijn eigen favoriete film: _Interstellar_. Ik heb de scène gekozen waarin Cooper met Tom en Murphy naar school rijdt en onderweg een drone probeert te onderscheppen. Deze scène heeft een spannende toon en bevat veel geluiden die ik kan weergeven.
 
 ### Week 3: Prototype
 
+De effecten die ik heb uitgewerkt zijn een box-shadow voor de muziek en een indicator om aan te geven hoe hard de muziek is. Ook heb ik plain text closed captions toegevoegd, aangezien Darice aangaf dat dit ook goed werkt. Na de feedback van Darice merkte ik dat de indicator geen goed idee was en dat ik dit moest veranderen. Dus heb ik een inset box-shadow gemaakt op de body die naar binnen groeit om aan te geven hoe hard de muziek is. Daarna heb ik een box-shadow toegevoegd aan de video-container die pulseert op de pianotonen in de muziek. Ik heb ook extra effecten toegevoegd om de geluiden weer te geven, zoals tekst die een object volgt (de drone die langsvliegt) en de mais die de auto raakt. Deze tekst heb ik animaties gegeven zodat het leuker is om naar te kijken. Ik heb zoveel mogelijk uitgewerkt.
+
 ### Week 4: Test & Iterate
+
+Vandaag hebben we de laatste feedback gehad en dit zou ik doen als ik nog veel meer tijd zou hebben voor dit project:
 
 ## 📢 Reflectie
 
