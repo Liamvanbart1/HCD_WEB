@@ -13,4 +13,7 @@ sounds = [
   [171, 260], //2e keer muziek
   [11, 13], // pst bij band
   [91, 94], //geluid van mais tegen raam
+  [99, 103], //drone1
+  [112, 115], //mais vliegt omhoog
+  [190, 205],
 ];

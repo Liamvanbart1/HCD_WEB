@@ -112,6 +112,22 @@
     }
 }
 
+@keyframes drone1 {
+    0% {
+        transform: translate(0, 0);
+        opacity: 1;
+    }
+
+    99% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        transform: translate(-20em, -10em);
+    }
+}
+
 @keyframes shake {
     0% {
         transform: translateX(0);
@@ -135,5 +151,18 @@
 
     100% {
         transform: translateX(0);
+    }
+}
+
+@keyframes flyAway {
+    0% {
+        transform: translate(0, 0) rotate(0deg);
+        opacity: 1;
+    }
+
+
+    100% {
+        transform: translate(-150px, -500px) rotate(-45deg);
+        opacity: 0;
     }
 }

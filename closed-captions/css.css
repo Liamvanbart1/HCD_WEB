@@ -85,6 +85,12 @@ Sounds.
 	bottom: 2.5em;
 }
 
+.vliegtuig1 {
+	opacity: 0;
+	position: absolute;
+	bottom: 2.5em;
+}
+
 .computer {
 	bottom: 2.5em;
 	opacity: 0;
@@ -111,24 +117,13 @@ Sounds.
 
 
 .combine {
-	color: #d80000;
-	background: #fff300;
 	position: absolute;
+	color: white;
 	display: block;
 	top: 36%;
 	left: 32%;
 	font-size: 2em;
-	font-family: 'Impact', 'Comic Sans MS', sans-serif;
-	text-transform: uppercase;
-	letter-spacing: 0.05em;
-	padding: 0.5em 1em;
-	border: 4px solid #000;
-	box-shadow: 4px 4px 0 #000;
-	transform: rotate(-3deg);
 	opacity: 0;
-	clip-path: polygon(50% 0%, 60% 30%, 100% 20%, 70% 50%,
-			100% 80%, 60% 70%, 50% 100%, 40% 70%,
-			0% 80%, 30% 50%, 0% 20%, 40% 30%);
 }
 
 .drone {
@@ -142,6 +137,17 @@ Sounds.
 	font-size: 1.5em;
 }
 
+.drone1 {
+	color: white;
+	position: absolute;
+	display: block;
+	font-size: 1em;
+	top: 42%;
+	left: 63%;
+	opacity: 0;
+	font-size: 1.5em;
+}
+
 .bandje {
 	color: white;
 	position: absolute;
@@ -151,6 +157,54 @@ Sounds.
 	left: 65%;
 	opacity: 0;
 }
+
+.raam {
+	color: white;
+	position: absolute;
+	display: block;
+	font-size: 3em;
+	top: 30%;
+	left: 65%;
+	opacity: 0;
+}
+
+.raam1 {
+	color: white;
+	position: absolute;
+	display: block;
+	font-size: 3em;
+	top: 30%;
+	left: 55%;
+	opacity: 0;
+	animation-delay: 300ms;
+	rotate: 70deg;
+}
+
+.raam2 {
+	color: white;
+	position: absolute;
+	display: block;
+	font-size: 2em;
+	top: 20%;
+	left: 45%;
+	opacity: 0;
+	rotate: 38deg;
+	animation-delay: 200ms;
+}
+
+.raam3 {
+	color: white;
+	position: absolute;
+	display: block;
+	font-size: 3em;
+	top: 20%;
+	left: 75%;
+	rotate: 180deg;
+	opacity: 0;
+	animation-delay: 500ms;
+}
+
+
 
 .mais1 {
 	color: white;
@@ -205,8 +259,9 @@ Sounds.
 	position: absolute;
 	display: block;
 	font-size: 1.5em;
-	/* top: 40em;
-	left: 210em; */
+	top: 65%;
+	left: 40%;
+	opacity: 0;
 }
 
 .mais7 {
@@ -214,8 +269,10 @@ Sounds.
 	position: absolute;
 	display: block;
 	font-size: 1.5em;
-	/* top: 40em;
-	left: 210em; */
+	top: 60%;
+	left: 30%;
+	animation-delay: 1s;
+	opacity: 0;
 }
 
 .mais8 {
@@ -223,8 +280,10 @@ Sounds.
 	position: absolute;
 	display: block;
 	font-size: 1.5em;
-	/* top: 40em;
-	left: 210em; */
+	top: 55%;
+	left: 36%;
+	animation-delay: .5s;
+	opacity: 0;
 }
 
 .mais9 {
@@ -312,16 +371,16 @@ body.sound8 .combine {
 }
 
 body.sound9 .mais1 {
-	animation: opacity 2s forwards;
+	animation: opacity 2s forwards, shake .2s infinite;
 }
 
 body.sound9 .mais2 {
-	animation: opacity 2s forwards;
+	animation: opacity 2s forwards, shake .2s infinite;
 	animation-delay: 250ms;
 }
 
 body.sound9 .mais3 {
-	animation: opacity 2s forwards;
+	animation: opacity 2s forwards, shake .2s infinite;
 	animation-delay: 280ms;
 }
 
@@ -368,6 +427,27 @@ body.sound13 .raam3 {
 	transition: all 1s ease;
 }
 
+body.sound14 .drone1 {
+	animation: drone1 7s forwards;
+}
+
+body.sound15 .mais6 {
+	animation: flyAway 2s ease-in-out forwards;
+}
+
+body.sound15 .mais7 {
+	animation: flyAway 2s ease-in-out forwards;
+	animation-delay: 1s;
+}
+
+body.sound15 .mais8 {
+	animation: flyAway 2s ease-in-out forwards;
+	animation-delay: 500ms;
+}
+
+body.sound16 .vliegtuig1 {
+	opacity: 1;
+}
 
 .soundeffects {
 	display: flex;
