@@ -7,6 +7,7 @@ Feel free to adjust the defaults to your needs.
 ********************************************** */
 body {
 	font-family: sans-serif;
+	height: 100vh;
 }
 
 #closed-captions p {
@@ -239,6 +240,10 @@ Sounds.
 
 /* animaties trigerren */
 
+body.sound0 {
+	animation: inwardGlow 120s ease-in-out forwards;
+	transition: all 1s ease;
+}
 
 
 body.sound0 .piano {
@@ -249,7 +254,7 @@ body.sound0 .piano {
 body.sound0 #video-container {
 	--blur: 2em;
 	--spread: 0em;
-	animation: muziek1 120s infinite ease-in-out;
+	animation: spacePulse 16s ease-in-out infinite;
 	transition: all 1s ease;
 }
 
@@ -293,17 +298,17 @@ body.sound8 .combine {
 }
 
 body.sound9 .mais1 {
-	animation: opacity 1s forwards;
+	animation: opacity 2s forwards;
 }
 
 body.sound9 .mais2 {
-	animation: opacity 1s forwards;
-	animation-delay: 150ms;
+	animation: opacity 2s forwards;
+	animation-delay: 250ms;
 }
 
 body.sound9 .mais3 {
-	animation: opacity 1s forwards;
-	animation-delay: 180ms;
+	animation: opacity 2s forwards;
+	animation-delay: 280ms;
 }
 
 body.sound10 .drone {
@@ -328,6 +333,7 @@ body {
 	margin: 0;
 	justify-content: center;
 	background-color: black;
+	align-items: center;
 }
 
 #video-container {
@@ -336,6 +342,7 @@ body {
 	align-items: center;
 	border-radius: 1em;
 	overflow: hidden;
+	height: fit-content;
 }
 
 #video-mask {
@@ -343,7 +350,6 @@ body {
 	overflow: hidden;
 	align-content: center;
 	transition: 1s;
-	/* height: 80%; */
 	align-items: end;
 	justify-self: center;
 }

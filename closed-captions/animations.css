@@ -16,33 +16,52 @@
     initial-value: 0em;
 }
 
-@keyframes muziek1 {
+
+@keyframes spacePulse {
     0% {
-        box-shadow: 0em 0em var(--blur) 0em #fdf3cc,
-            0em 0em 1em 0em #fdf3cc;
+        box-shadow: 0 0 2em 0em #1e2a78;
+    }
+
+    10% {
+        box-shadow: 0 0 2em 3em #3f5db3;
+    }
+
+    20% {
+        box-shadow: 0 0 2em 0em #1e2a78;
+    }
+
+    35% {
+        box-shadow: 0 0 2em 3em #3f5db3;
+    }
+
+    45% {
+        box-shadow: 0 0 2em 0em #1e2a78;
+    }
+
+    60% {
+        box-shadow: 0 0 2em 3em #3f5db3;
+    }
+
+    70% {
+        box-shadow: 0 0 2em 0em #1e2a78;
+    }
+
+    85% {
+        box-shadow: 0 0 2em 4em #3f5db3;
     }
 
     100% {
-        box-shadow: 0em 0em var(--blur) 0em #fdf3cc,
-            0em 0em 1em 10em #fdf3cc;
+        box-shadow: 0 0 2em 0em #1e2a78;
     }
 }
 
-
-@keyframes fadeDown {
+@keyframes inwardGlow {
     0% {
-        opacity: 0;
-        transform: translateY(0);
-    }
-
-    50% {
-        opacity: 1;
-        transform: translateY(10px);
+        box-shadow: inset 0em 0em 2em 0em #fdf3cc;
     }
 
     100% {
-        opacity: 0;
-        transform: translateY(20px);
+        box-shadow: inset 0em 0em 2em 10em #fdf3cc;
     }
 }
 
@@ -65,16 +84,15 @@
 @keyframes opacity {
     0% {
         opacity: 1;
-        /* transform: translateY(0); */
+        transform: translateY(0);
     }
 
     50% {
         opacity: 1;
-        /* transform: translateY(10px); */
     }
 
     100% {
-        /* transform: translateY(20px); */
+        transform: translateY(-40px);
         opacity: 0;
     }
 }
