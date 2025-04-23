@@ -15,5 +15,5 @@ sounds = [
   [91, 94], //geluid van mais tegen raam
   [99, 103], //drone1
   [112, 115], //mais vliegt omhoog
-  [190, 205],
+  [190, 205], //drone nog een keer
 ];

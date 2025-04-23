@@ -46,6 +46,22 @@ Ik kreeg ook specifieke feedback over de vormgeving van de tekst zelf. Darice ga
 
 ### Week 4
 
-Vandaag hebben we de laatste feedback gehad en dit zou ik doen als ik nog veel meer tijd zou hebben voor dit project:
+Vandaag hebben we de laatste feedbackronde gehad. Als ik nog aanzienlijk meer tijd had gehad om aan dit project te werken, zijn er een aantal punten waar ik me verder op had kunnen richten om het geheel nog sterker te maken:
+
+- Beter letten op het kleurcontrast, zodat tekst en beelden nog duidelijker en toegankelijker zijn.
+
+- Het lettertype van de muziekondertiteling iets aanpassen; momenteel is het vrij vet (bold) en dat leidt soms wat af van de visuele beleving.
+
+- De border radius van bepaalde elementen zou ik opvallender en stijlvoller kunnen maken om een modernere uitstraling te creëren.
+
+- Een zwarte rand of schaduw achter de tekst zou het contrast met de achtergrond versterken en de leesbaarheid verbeteren.
+
+- Ik zou explicieter kunnen beschrijven welke emotie de muziek oproept, zodat de kijker zich nog meer kan inleven.
+
+Hoewel deze punten verbeterd kunnen worden, hoef ik in principe niet veel meer aan te passen. De belangrijkste onderdelen zijn af en het project functioneert zoals bedoeld. Wel denk ik dat de animatie van de pianotoon nog krachtiger zou kunnen, om de emotionele lading beter over te brengen – dit heb ik overigens achteraf al gedeeltelijk aangepast. Ook wil ik de muziekondertiteling iets minder bold maken, zodat deze subtieler wordt weergegeven en niet teveel afleidt van het beeld.
+
+Als ik nog wat extra tijd zou hebben, zou ik ook nog wat extra animaties willen uitwerken, bijvoorbeeld bij de dronescène, om meer dynamiek en sfeer toe te voegen.
+
+Over het algemeen ben ik tevreden met het eindresultaat. Het project werkt goed, de visuele elementen sluiten op elkaar aan, en ik heb veel geleerd in het proces. Dat maakt dit voor mij tot een geslaagd project.
 
 > Gemaakt in het kader van het vak Human Centered Design - [Hogeschool van Amsterdam / Communicatie en Multimedia Design]
