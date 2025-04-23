@@ -19,6 +19,8 @@ body {
 	align-items: center;
 	font-size: 1.7em;
 	font-family: sans-serif;
+	background-color: black;
+	padding: .2em;
 }
 
 #closed-captions .on {

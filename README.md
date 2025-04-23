@@ -48,15 +48,13 @@ Ik kreeg ook specifieke feedback over de vormgeving van de tekst zelf. Darice ga
 
 Vandaag hebben we de laatste feedbackronde gehad. Als ik nog aanzienlijk meer tijd had gehad om aan dit project te werken, zijn er een aantal punten waar ik me verder op had kunnen richten om het geheel nog sterker te maken:
 
-- Beter letten op het kleurcontrast, zodat tekst en beelden nog duidelijker en toegankelijker zijn.
+- Beter letten op het kleurcontrast, zodat tekst en beelden nog duidelijker en toegankelijker zijn. (dit heb ik ook opgelost)
 
 - Het lettertype van de muziekondertiteling iets aanpassen; momenteel is het vrij vet (bold) en dat leidt soms wat af van de visuele beleving.
 
 - De border radius van bepaalde elementen zou ik opvallender en stijlvoller kunnen maken om een modernere uitstraling te creëren.
 
-- Een zwarte rand of schaduw achter de tekst zou het contrast met de achtergrond versterken en de leesbaarheid verbeteren.
-
-- Ik zou explicieter kunnen beschrijven welke emotie de muziek oproept, zodat de kijker zich nog meer kan inleven.
+- Een zwarte rand of schaduw achter de tekst zou het contrast met de achtergrond versterken en de leesbaarheid verbeteren. (uiteindelijk gedaan)
 
 Hoewel deze punten verbeterd kunnen worden, hoef ik in principe niet veel meer aan te passen. De belangrijkste onderdelen zijn af en het project functioneert zoals bedoeld. Wel denk ik dat de animatie van de pianotoon nog krachtiger zou kunnen, om de emotionele lading beter over te brengen – dit heb ik overigens achteraf al gedeeltelijk aangepast. Ook wil ik de muziekondertiteling iets minder bold maken, zodat deze subtieler wordt weergegeven en niet teveel afleidt van het beeld.
 
